@@ -8,7 +8,7 @@ const CartItem = ({ onContinueShopping }) => {
   const dispatch = useDispatch();
 
   const parseItemCostToInteger = (itemCost) => {
-    return parseInt(item.Cost.replace('$', '') 10);
+    return parseInt(item.Cost.replace('$', '') ,10);
   };
 
   const calculateTotalAmount = () => {
